@@ -1,0 +1,21 @@
+.display {
+  height: 50px;
+  margin: 20px 20px 0;
+  padding-right: 10px;
+  border: 2px solid rgb(223, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Digital Numbers Regular";
+  font-size: 1.6rem;
+
+  background: rgb(200, 217, 223);
+}
+
+@font-face {
+  font-family: "Digital Numbers Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Digital Numbers Regular"),
+    url("../DigitalNumbers-Regular.woff") format("woff");
+}

@@ -1,0 +1,36 @@
+.button {
+    height: 50px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 10px auto;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.4rem;
+    /* background: #fff; */
+    background: rgb(88, 88, 88);
+    color: #fff;
+}
+
+.button:hover {
+    background: rgb(204, 204, 204);
+    color: black;
+}
+
+.disabled {
+    /* background: rgb(218, 196, 196); */
+    
+    background: #b3aaaa;
+    color: #d4d4d4;
+    cursor: default;
+}
+
+.disabled:hover {
+    /* background: rgb(218, 196, 196); */
+
+    background: #b3aaaa;
+    color: #d4d4d4;
+}

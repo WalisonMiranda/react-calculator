@@ -1,0 +1,80 @@
+.calculator {
+  max-width: 400px;
+  min-height: 400px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  background: rgb(71, 71, 71);
+
+  border: 2px solid black;
+  box-shadow: 0 2px 5px black;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.buttonsContainer {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  margin: 20px 20px 0 20px;
+  padding: 10px 10px 0 10px;
+  background: darkgray;
+
+  border: 1px solid gray;
+  border-bottom: none;
+}
+
+.gridFix {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 2fr 4fr;
+  margin: 0 20px 40px;
+  padding: 0 10px 10px 10px;
+  background: darkgray;
+
+  border: 1px solid gray;
+  border-top: none;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.icon {
+  width: 90%;
+  height: 43px;
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-start;
+  margin: 16px 24px;
+  padding: 4px 10px;
+  font-size: 1.7rem;
+  font-family: "Russo One", sans-serif;
+  font-weight: bold;
+  text-align: left;
+  line-height: 1.7rem;
+  letter-spacing: 2px;
+  cursor: default;
+  color: rgb(211, 211, 211);
+
+  border-bottom: 4px solid #00236d;
+}
+.bars {
+  color: #00236d;
+  font-weight: bold;
+}
+
+.type {
+  font-family: sans-serif;
+  font-size: 1.4rem;
+  font-weight: 200;
+  color: rgb(211, 211, 211);
+}
+
+.gridFix .button:nth-child(1) {
+  background: #00236d;
+}
+
+.gridFix .button:nth-child(1):hover {
+  background: #5468b1;
+}
